@@ -5,6 +5,7 @@
 # part99 is max!
 
 import os
+import copy
 import glob
 import re
 import subprocess
@@ -26,12 +27,12 @@ for i in range(0,len(dparts),1):
     with open(f'{filename}','r') as f:
         l = f.readlines()
         print(l)
-    """
+    
     if i == 0:
-        lc.append(l)
-    """
+        lc=copy.deepcopy(l)
+    
     # find & remove [import] and [from] lines part1+
-    if i > 0:
+    elif i > 0:
         for i in range(len(l)):
             ptrn = re.compile(r"(^(?=.*(from\s\S|import\s\S))^(?!.*\"\"\").*$)")
             result = ptrn.search(l[i])
