@@ -26,7 +26,10 @@ for i in range(0,len(dparts),1):
     with open(f'{filename}','r') as f:
         l = f.readlines()
         print(l)
-
+    """
+    if i == 0:
+        lc.append(l)
+    """
     # find & remove [import] and [from] lines part1+
     if i > 0:
         for i in range(len(l)):
@@ -41,9 +44,9 @@ for i in range(0,len(dparts),1):
 
 print(lc)
 
-mkdpath = ("combedmain.py")
+mkdpath = "combedmain.py"
 if os.path.exists(mkdpath) == True:
-    os.path.remove(mkdpath)
+    os.remove(mkdpath)
 
 if os.path.exists(mkdpath) == False:
     with open("combedmain.py", "w") as opfile:
