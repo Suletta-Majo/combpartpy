@@ -15,5 +15,6 @@ so if you're unlucky, it may break unexpectedly :o
 
 
 Cases where comments are made into multiple lines by line breaks  
-It does not correspond to the presence of 'from' or 'import' at the beginning of the line. 
+If there is a 'from' or 'import' at the beginning of the line,  
+it is difficult and it is not handled well.  
 It's like being in the ohmain.part2.py of sample
