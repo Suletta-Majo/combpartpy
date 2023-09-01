@@ -4,6 +4,7 @@
 
 # part99 is max!
 
+import os
 import glob
 import re
 import subprocess
@@ -39,6 +40,15 @@ for i in range(0,len(dparts),1):
                 lc.pop()
 
 print(lc)
+
+mkdpath = ("combedmain.py")
+if os.path.exists(mkdpath) == True:
+    os.path.remove(mkdpath)
+
+if os.path.exists(mkdpath) == False:
+    with open("combedmain.py", "w") as opfile:
+        opfile.write("\n".join(lc))
+
 
 print("program endline")
 
