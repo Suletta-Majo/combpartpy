@@ -6,3 +6,7 @@
 eoleol = 1
 print(eoleol)
 
+# this case can't resolve
+print("^format and \
+import and \
+format ")

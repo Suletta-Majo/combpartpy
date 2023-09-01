@@ -1,26 +1,30 @@
 # test
 
-import Decimal
+import decimal
 import math
 import os
-import numpy
 
 
 
-print(Hello World)
+print("Hello World")
+
 # test again
 
 
-print("hello world")
+print("hello world again")
 
 impor = 0
 
 imported = 0
 
 
-import numpy"""
+"""
 comment
 """
+
+def skyhigh(numjet):
+    numjet = numjet**2
+    return
 # 1
 # 2
 # 3
@@ -29,9 +33,15 @@ comment
 eoleol = 1
 print(eoleol)
 
+# this case can't resolve
+print("^format and \
+format ")
 # test fin
 
 
 os.system("ls -a")
 
 fromlist = []
+from_list = []
+
+skyhigh(300)
