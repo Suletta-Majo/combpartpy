@@ -13,3 +13,7 @@ note
 It's not a well-designed program,  
 so if you're unlucky, it may break unexpectedly :o  
 
+
+Cases where comments are made into multiple lines by line breaks  
+It does not correspond to the presence of 'from' or 'import' at the beginning of the line. 
+It's like being in the ohmain.part2.py of sample
