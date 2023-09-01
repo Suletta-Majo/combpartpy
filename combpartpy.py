@@ -50,7 +50,7 @@ if os.path.exists(mkdpath) == True:
 
 if os.path.exists(mkdpath) == False:
     with open("combedmain.py", "w") as opfile:
-        opfile.write("\n".join(lc))
+        opfile.write("".join(lc))
 
 
 print("program endline")
