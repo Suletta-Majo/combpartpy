@@ -17,7 +17,7 @@ dparts.extend(glob.glob("*.part[0-9][0-9].py"))
 
 print(dparts)
 
-rfill = []
+
 lc = []
 for i in range(0,len(dparts),1):
 
