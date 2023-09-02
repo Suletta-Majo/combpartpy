@@ -7,7 +7,7 @@ rename your separated main program files
 *****.part0~99.py  
 put this combpartpy.py same directory and run  
 this program create combined copy those files in one and run the program.  
-part0 is basefile,other files [from and import] not copy  
+part0 is basefile,Do not copy the from and import statements of the contents of other files  
 
 note  
 It's not a well-designed program,  
