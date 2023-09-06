@@ -15,7 +15,10 @@ comment
 import from lib
 """
 
-def skyhigh(numjet):
-    numjet = numjet**2
-    print("skyhigh! you flying {} miles high from ground".format(numjet))
+def foba():
+    global foo# maybe can't access if this file module-loaded
+    foo = "foo"+foo
+    print(foo)
     return
+
+foba()
