@@ -2,6 +2,8 @@
 I plan to combine the main Python program written in an appropriate split
 ------------------------------------------
 ### info
+###*I am archiving this because it was made as an example for my question.*
+
 I haven't looked at it in detail, so I may have misunderstood, but  
 I found a tool for a similar purpose that looks very functional and excellent, so I will describe it 😙  
 https://github.com/yamenk-gribaudo/pymerger  
